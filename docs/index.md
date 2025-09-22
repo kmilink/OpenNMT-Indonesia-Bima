@@ -1,5 +1,6 @@
-# OpenNMT Indonesia ↔ Bima Translation
 
+
+# Github 
 > 🔗 Akses penuh repository: [HazelnutDev/OpenNMT-Indonesia-Bima](https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima)
 
 ## Tentang Proyek
