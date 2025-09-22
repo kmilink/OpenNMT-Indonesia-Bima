@@ -4,8 +4,6 @@ Pembuatan Model Translate Bahasa Indonesia ke Bahasa Daerah Bima
 ## License
 Proyek ini dilisensikan di bawah [HazelDev License (MIT Modified, Non-Commercial)](./LICENSE).
 
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-
 # Tutorial OpenNMT-py Versi 1.2
 
 buka folder sentecepiece nya pak terus salin foldernya taroh difolder C langsung terus salin path nya terutama bin dll pada isi folder tersebut taro pada envirotmen variabel pada laptop dibagian system path baru jalankan semua kode atau script ini makasih😊
