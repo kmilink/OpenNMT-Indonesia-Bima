@@ -28,7 +28,7 @@ Proyek ini menggunakan lisensi khusus berbasis MIT dengan ketentuan tambahan:
 Lihat berkas [LICENSE](LICENSE) untuk detail lengkap.
 
 ## 🌐 GitHub Pages
-Dokumentasi dapat diakses melalui [GitHub Pages](https://hazelnutdev.github.io/Indo-Bima-Translate).
+Dokumentasi dapat diakses melalui [GitHub Pages]([https://hazelnutdev.github.io/Indo-Bima-Translate](https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/)).
 
 ## 🤝 Kontribusi
 Pull request dan kontribusi sangat terbuka!  
