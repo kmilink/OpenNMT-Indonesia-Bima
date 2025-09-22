@@ -30,7 +30,7 @@ data/
 
 ## Cara Menjalankan
 Untuk panduan instalasi, training, dan inferensi model, silakan lihat:  
-📖 [Tutorial Lengkap](./tutorial.md)
+📖 [Tutorial Lengkap](tutorial.md)
 
 ---
 
