@@ -1,5 +1,5 @@
 ---
-title: Model Translasi Bahasa Indonesia ke Bima berbasis OpenNMT (Neural Machine Translation)
+title: OpenNMT Indonesia ke Bima
 ---
 
 # Model Translasi Bahasa Indonesia ↔ Bima berbasis OpenNMT (Neural Machine Translation)
