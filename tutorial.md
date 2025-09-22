@@ -1,32 +1,32 @@
-Tutorial OpenNMT-py Versi 1.2
+# Tutorial OpenNMT-py Versi 1.2
 
 buka folder sentecepiece nya pak terus salin foldernya taroh difolder C langsung terus salin path nya terutama bin dll pada isi folder tersebut taro pada envirotmen variabel pada laptop dibagian system path baru jalankan semua kode atau script ini makasih😊
 
-1. gabungkan file train sumber & target untuk training SPM
+# 1. gabungkan file train sumber & target untuk training SPM
 cat C:/Users/HazelDev/Desktop/OpenNMT-py/train.id-full.txt C:/Users/HazelDev/Desktop/OpenNMT-py/train.bhp-full.txt > C:/Users/HazelDev/Desktop/OpenNMT-py/all_for_sp.txt
 
-# Asumsi total 7009 baris
+## Asumsi total corpus atau dataset 7009 baris
 head -n 6500 split-data/src.txt > train.id.txt 
 head -n 6500 split-data/tgt.txt > train.bhp.txt
 tail -n 509 split-data/src.txt | head -n 509 > valid.id.txt 
 tail -n 509 split-data/tgt.txt | head -n 509 > valid.bhp.txt
-#opsional
+## opsional
 tail -n 100 split-data/src.txt | tail -n 100 > data/src-test.txt 
 tail -n 100 split-data/tgt.txt | tail -n 100 > data/tgt-test.txt
 
-2. create and training spm encode
+# 2. create and training spm encode
 # train sentencepiece (vocab 8000, tipe bpe recommended)
 spm_train --input=C:/Users/HazelDev/Desktop/OpenNMT-py/all_for_sp.txt --model_prefix=C:/Users/HazelDev/Desktop/OpenNMT-py/onmt_data/spm --vocab_size=8000 --model_type=bpe --character_coverage=1.0
 
-# encode bpe train
+## encode bpe train
 spm_encode --model=C:/Users/HazelDev/Desktop/OpenNMT-py/onmt_data/spm.model < C:/Users/HazelDev/Desktop/OpenNMT-py/train.id.txt  > C:/Users/HazelDev/Desktop/OpenNMT-py/data/train.id.spm
 spm_encode --model=C:/Users/HazelDev/Desktop/OpenNMT-py/onmt_data/spm.model < C:/Users/HazelDev/Desktop/OpenNMT-py/train.bhp.txt  > C:/Users/HazelDev/Desktop/OpenNMT-py/data/train.bhp.spm
 
-# encode bpe valid
+## encode bpe valid
 spm_encode --model=C:/Users/HazelDev/Desktop/OpenNMT-py/onmt_data/spm.model < C:/Users/HazelDev/Desktop/OpenNMT-py/valid.id.txt  > C:/Users/HazelDev/Desktop/OpenNMT-py/data/valid.id.spm
 spm_encode --model=C:/Users/HazelDev/Desktop/OpenNMT-py/onmt_data/spm.model < C:/Users/HazelDev/Desktop/OpenNMT-py/valid.bhp.txt  > C:/Users/HazelDev/Desktop/OpenNMT-py/data/valid.bhp.spm
 
-3. prosesing onmt
+# 3. prosesing onmt
 onmt_preprocess \
   -train_src C:/Users/HazelDev/Desktop/OpenNMT-py/data/train.id.spm \
   -train_tgt C:/Users/HazelDev/Desktop/OpenNMT-py/data/train.bhp.spm \
@@ -36,9 +36,9 @@ onmt_preprocess \
   -src_seq_length 200 -tgt_seq_length 200 \
   -share_vocab
 
-jangan lupa pindahkan file onmt_data pada folder onmt_data biar supaya tidak ada kendala setelah menjalankan ini
+## jangan lupa pindahkan file onmt_data pada folder onmt_data biar supaya tidak ada kendala setelah menjalankan ini
 
-4. Training onmt 
+# 4. Training onmt 
 onmt_train \
   --data "C:/Users/HazelDev/Desktop/OpenNMT-py/onmt_data/onmt_data" \
   --save_model "C:/Users/HazelDev/Desktop/OpenNMT-py/model/bima" \
@@ -54,15 +54,15 @@ onmt_train \
   --train_steps 5000 --valid_steps 500 --save_checkpoint_steps 500 \
   --model_dtype fp16 --early_stopping 3 --early_stopping_criteria ppl
 
-5. inferensi atau coba test translate model
-# inferensi supaya bisa dicek score bleu
+# 5. inferensi atau coba test translate model
+## inferensi supaya bisa dicek score bleu
 onmt_translate \
   --model C:/Users/HazelDev/Desktop/OpenNMT-py/model/bima_step_5000.pt \
   --src C:/Users/HazelDev/Desktop/OpenNMT-py/data/test.id.spm \
   --output C:/Users/HazelDev/Desktop/OpenNMT-py/pred.bhp.spm \
   --gpu 0
   
-# untuk cek inferensi akurat
+## untuk cek inferensi akurat
 onmt_translate \
   --model C:/Users/HazelDev/Desktop/OpenNMT-py/model/bima_step_5000.pt \
   --src C:/Users/HazelDev/Desktop/OpenNMT-py/data/test.id.spm \
@@ -71,8 +71,8 @@ onmt_translate \
   --batch_size 16 \
   --beam_size 5
   
-6. decode atau merubah kembali isi file ke file yang mudah dibaca dari hasil translate
+# 6. decode atau merubah kembali isi file ke file yang mudah dibaca dari hasil translate
 spm_decode.exe --model=onmt_data/spm.model --input=pred.bhp.spm --output=pred.bhp.txt
 
-7. cek score bleu
+# 7. cek score bleu
 cat C:/Users/HazelDev/Desktop/OpenNMT-py/pred.bhp.txt | sacrebleu C:/Users/HazelDev/Desktop/OpenNMT-py/data/test.bhp.txt
