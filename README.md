@@ -8,7 +8,7 @@ buka folder sentecepiece nya pak terus salin foldernya taroh difolder C langsung
 # 1. gabungkan file train sumber & target untuk training SPM
 cat C:/Users/HazelDev/Desktop/OpenNMT-py/train.id-full.txt C:/Users/HazelDev/Desktop/OpenNMT-py/train.bhp-full.txt > C:/Users/HazelDev/Desktop/OpenNMT-py/all_for_sp.txt
 
-## Asumsi total 7009 baris
+## Asumsi total corpus atau dataset 7009 baris
 head -n 6500 split-data/src.txt > train.id.txt 
 head -n 6500 split-data/tgt.txt > train.bhp.txt
 tail -n 509 split-data/src.txt | head -n 509 > valid.id.txt 
