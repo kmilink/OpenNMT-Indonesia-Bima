@@ -14,7 +14,10 @@ Proyek ini menyediakan **model penerjemahan otomatis (NMT)** untuk Bahasa **Indo
 - SentencePiece
 
 ## 📖 Dokumentasi
-Lihat dokumentasi lengkap di [GitHub Pages](https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/).
+Lihat dokumentasi lengkap di [GitHub Pages](https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/?no-cache=1).
+
+## Dokumentasi Lengkap Tutorial
+Tutorial Lengkap [Tutorial](https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima/blob/main/docs/tutorial.md).
 
 ## 🛠️ Cara Menjalankan
 ```bash
