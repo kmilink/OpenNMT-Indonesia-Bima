@@ -4,7 +4,7 @@ Proyek ini menyediakan **model penerjemahan otomatis (NMT)** untuk Bahasa **Indo
 
 ## 🚀 Fitur
 - Translasi otomatis Indonesia ↔ Bima.
-- Dataset 5000+ pasangan kalimat.
+- Dataset 7000+ pasangan kalimat.
 - Dukungan penuh SentencePiece.
 - Open source & gratis untuk riset.
 
@@ -16,18 +16,8 @@ Proyek ini menyediakan **model penerjemahan otomatis (NMT)** untuk Bahasa **Indo
 ## 📖 Dokumentasi
 Lihat dokumentasi lengkap di [GitHub Pages](https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/?no-cache=1).
 
-## Dokumentasi Lengkap Tutorial
+## 📖 Dokumentasi Tutorial
 Tutorial Lengkap [Tutorial](https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima/blob/main/docs/tutorial.md).
-
-## 🛠️ Cara Menjalankan
-```bash
-git clone https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima.git
-cd OpenNMT-Indonesia-Bima
-
-onmt_preprocess -config config/config.yaml
-onmt_train -config config/config.yaml
-onmt_translate -model models/model_step_xx.pt -src data/src-test.txt -output pred.txt
-```
 
 ## 📜 Lisensi
 Lisensi **Non-Komersial** dengan atribusi wajib kepada HazelDev.
