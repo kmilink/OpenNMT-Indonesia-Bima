@@ -2,6 +2,8 @@
 title: Model Translasi Bahasa Indonesia ↔ Bima berbasis OpenNMT (Neural Machine Translation)
 ---
 
+# Model Translasi Bahasa Indonesia ↔ Bima berbasis OpenNMT (Neural Machine Translation)
+
 ## LANSUNG SAJA KE REPOSITORI GITHUB DIBAWAH INI :
 
 🔗 Akses penuh repository: [HazelnutDev/OpenNMT-Indonesia-Bima](https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima)
