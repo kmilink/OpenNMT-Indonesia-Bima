@@ -1,0 +1,30 @@
+site_name: OpenNMT Indonesia ↔ Bima
+site_description: Dokumentasi model translasi Indonesia ↔ Bima berbasis OpenNMT
+site_url: https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/
+repo_url: https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima
+repo_name: HazelnutDev/OpenNMT-Indonesia-Bima
+
+theme:
+  name: material
+  language: id
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+    - content.tabs.link
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+
+nav:
+  - Home: index.md
+  - Tutorial: tutorial.md
+  - Dataset: dataset.md
