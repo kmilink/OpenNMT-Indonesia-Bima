@@ -1,6 +1,16 @@
 # OpenNMT
 Pembuatan Model Translate Bahasa Indonesia ke Bahasa Daerah Bima
 
+# Indonesia ↔ Bima Translation Model
+
+Proyek ini adalah implementasi **OpenNMT** untuk membangun **model translasi Bahasa Indonesia ke Bima** 
+dan sebaliknya. Tujuannya adalah mendukung pelestarian bahasa daerah dengan teknologi **Neural Machine Translation (NMT)**.
+
+## Fitur
+- Dataset Indonesia ↔ Bima
+- Model berbasis OpenNMT
+- Training dan evaluasi dengan SentencePiece
+
 ## License
 Proyek ini dilisensikan di bawah [HazelDev License (MIT Modified, Non-Commercial)](./LICENSE).
 
