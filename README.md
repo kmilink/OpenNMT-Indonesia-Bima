@@ -1,6 +1,3 @@
-# OpenNMT
-Pembuatan Model Translate Bahasa Indonesia ke Bahasa Daerah Bima
-
 # Indonesia ↔ Bima Translation Model
 
 Proyek ini adalah implementasi **OpenNMT** untuk membangun **model translasi Bahasa Indonesia ke Bima** 
