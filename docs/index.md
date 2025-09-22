@@ -1,3 +1,10 @@
+---
+title: OpenNMT Indonesia ↔ Bima
+description: Dokumentasi resmi OpenNMT untuk translasi Bahasa Indonesia ↔ Bima. Dibuat oleh HazelDev.
+author: HazelDev
+lang: id
+---
+
 # Indo-Bima Translation Model 🌐
 
 Selamat datang di dokumentasi **Proyek Terjemahan Bahasa Indonesia ↔ Bahasa Bima**.
