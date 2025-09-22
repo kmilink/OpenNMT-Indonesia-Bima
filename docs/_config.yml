@@ -7,7 +7,7 @@ author:
   name: "HazelDev"
   email: "raposumbawa@gmail.com"
 
-theme: Cayman
+theme: minima
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
