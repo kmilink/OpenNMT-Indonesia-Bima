@@ -9,6 +9,8 @@ lang: id
 
 Selamat datang di dokumentasi **Proyek Terjemahan Bahasa Indonesia ↔ Bahasa Bima**.
 
+## Dokumentasi Lengkap dapat diakses melalui [GitHub Hazeldev](https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima/?no-cache=1).
+
 ## 🎯 Tujuan
 Bahasa Bima adalah salah satu bahasa daerah di Indonesia yang perlu dilestarikan.  
 Dengan adanya model terjemahan ini, diharapkan bahasa Bima dapat semakin dikenal dan digunakan di era digital.
