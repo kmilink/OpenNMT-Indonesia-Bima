@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/sitemap.xml
