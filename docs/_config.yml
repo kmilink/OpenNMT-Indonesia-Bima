@@ -1,0 +1,13 @@
+title: "OpenNMT Indonesia ↔ Bima"
+description: "Proyek OpenNMT Indonesia ↔ Bima. Model NMT untuk Bahasa Indonesia ↔ Bahasa Bima."
+url: "https://hazelnutdev.github.io"
+baseurl: "/OpenNMT-Indonesia-Bima"
+
+author: 
+  name: "HazelDev"
+  email: "your@email.com"
+
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag

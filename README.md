@@ -1,38 +1,30 @@
-# Indo-Bima Translation Model
+# 🌐 OpenNMT Indonesia ↔ Bima
 
-Proyek ini bertujuan untuk membangun model terjemahan mesin dari **Bahasa Indonesia ↔ Bahasa Bima** menggunakan [OpenNMT](https://opennmt.net/).  
-Model ini dirancang untuk mendukung pelestarian bahasa daerah serta memperluas akses teknologi NLP untuk bahasa Bima.
+Proyek ini menyediakan **model penerjemahan otomatis (NMT)** untuk Bahasa **Indonesia ↔ Bima**, dibangun menggunakan **OpenNMT-py v1**.
 
 ## 🚀 Fitur
-- Dataset paralel Indonesia ↔ Bima (5000+ pasangan kalimat, terus bertambah).
-- Preprocessing menggunakan SentencePiece (tokenisasi subword).
-- Training model berbasis [OpenNMT-py v1](https://github.com/OpenNMT/OpenNMT-py).
-- Inferensi untuk uji coba translasi.
+- Translasi otomatis Indonesia ↔ Bima.
+- Dataset 5000+ pasangan kalimat.
+- Dukungan penuh SentencePiece.
+- Open source & gratis untuk riset.
 
-## 📂 Struktur Proyek
+## 📦 Teknologi
+- Python 3.8+
+- OpenNMT-py v1
+- SentencePiece
+
+## 📖 Dokumentasi
+Lihat dokumentasi lengkap di [GitHub Pages](https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/).
+
+## 🛠️ Cara Menjalankan
+```bash
+git clone https://github.com/HazelnutDev/OpenNMT-Indonesia-Bima.git
+cd OpenNMT-Indonesia-Bima
+
+onmt_preprocess -config config/config.yaml
+onmt_train -config config/config.yaml
+onmt_translate -model models/model_step_xx.pt -src data/src-test.txt -output pred.txt
 ```
-├── data/               # Dataset paralel (src, tgt, train, valid, test)
-├── config/             # Konfigurasi OpenNMT
-├── models/             # Model hasil training
-├── LICENSE             # Lisensi proyek
-├── README.md           # Dokumentasi proyek
-└── index.md            # Dokumentasi untuk GitHub Pages
-```
 
-## ⚖️ Lisensi
-Proyek ini menggunakan lisensi khusus berbasis MIT dengan ketentuan tambahan:
-- **Non-Komersial** → Tidak boleh digunakan untuk tujuan komersial.
-- **Atribusi Wajib** → Cantumkan nama `HazelDev` sebagai pencipta asli.
-- **Larangan Penyalahgunaan** → Dilarang untuk tujuan ilegal atau merugikan.
-
-Lihat berkas [LICENSE](LICENSE) untuk detail lengkap.
-
-## 🌐 GitHub Pages
-Dokumentasi dapat diakses melalui [GitHub Pages](https://hazelnutdev.github.io/OpenNMT-Indonesia-Bima/?no-cache=1).
-
-## 🤝 Kontribusi
-Pull request dan kontribusi sangat terbuka!  
-Silakan fork repo ini dan buat perubahan melalui PR.
-
----
-Hak Cipta (c) 2025 HazelDev
+## 📜 Lisensi
+Lisensi **Non-Komersial** dengan atribusi wajib kepada HazelDev.
