@@ -11,3 +11,4 @@ theme: Cayman
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
+  - jekyll-remote-theme
